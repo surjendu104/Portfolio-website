@@ -204,12 +204,12 @@ section {
           clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content .left-header .image {
-  border-radius: var(--br-sm-2);
   height: 90%;
   width: 68%;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
+  border-radius: 100px;
 }
 .header-content .left-header .image img {
   width: 100%;
@@ -217,6 +217,7 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.4s ease-in-out;
+  border-radius: 100px;
   filter: grayscale(100%);
 }
 .header-content .left-header .image img:hover {
