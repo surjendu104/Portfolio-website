@@ -99,16 +99,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -580,10 +571,10 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
-  margin: 0.3rem 0 !important;
+  margin: 0 0 0 20px;
   padding: 0 !important;
 }
 .contact-content-con .left-contact .contact-info .contact-item .icon {
